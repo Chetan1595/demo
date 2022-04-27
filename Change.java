@@ -45,9 +45,9 @@ class Returns{
 public class Change {
 
 	public static void main(String[] args) {
-		Returns ret = new Returns("car",99);
+		Returns ret = new Returns("abcd",99);
 		System.out.println(ret.abcd());
-		ret.setName("Chetan");
+		ret.setName("name");
 		System.out.println(ret.getName());
 		ret.setRoll(10);
 		System.out.println(ret.getRoll());
